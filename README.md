@@ -190,6 +190,8 @@ Organizing your documentation files in a logical and structured manner helps dev
 
 By following these guidelines, you can effectively document your project on Git, ensuring that important information is well-preserved, easily accessible, and accurately versioned. This helps both current and future developers understand and maintain the project with clarity and efficiency.
 
+[Git Version Control System](C:\Users\sinhm\Desktop\doc\Git_Version.md)
+
 # Project Management Tool
 ### All about how the Zethic uses "Click-Up" to keep track of bugs and feature requests
 
@@ -471,3 +473,9 @@ Here is a suggested structure for organizing your Laravel API:
 10. <u>Error Handling:</u> Customize Laravel's exception handling to provide meaningful error responses. Create custom exception classes for specific types of errors and define how they should be transformed into API responses.
 
 11. <u>Documentation:</U> Provide comprehensive documentation that describes each endpoint, its purpose, required parameters, and expected responses. Include examples of request and response payloads to assist API consumers in using your API effectively.
+
+[Git version control system](doc/Git_Version.md)
+[Project management tool](doc/Project_Management.md)
+[Docker setup](doc/Docker_Setup.md)
+[Coding standards](doc/Coding_Standards.md)
+[Api's](API's.md)
