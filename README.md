@@ -370,7 +370,7 @@ Ref: [Medium](https://medium.com/p/8fd00f66e394)
 2. <u>Commit Guidelines:</u> Specify rules for writing clear and descriptive commit messages.
 3. <u>Code Review Process:</u> Outline the process for conducting code reviews and providing constructive feedback.
 
-# **_Continuous Integration and Deployment_**
+## **_Continuous Integration and Deployment_**
 
 If your project incorporates continuous integration and deployment, provide guidelines for setting up and configuring the CI/CD pipeline. Specify the required configuration files, testing procedures, and deployment guidelines.
 
