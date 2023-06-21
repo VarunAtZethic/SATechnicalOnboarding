@@ -159,7 +159,7 @@ git push origin <branch-name>    # Push changes to the remote
 
 ### Information on how to create and manage a module, theme, or distribution project hosted:
 
-# **_Documenting Your Project on Git:_**
+## **_Documenting Your Project on Git:_**
 
 Effective documentation is crucial for ensuring the long-term maintainability and understandability of a project. Git provides several features and best practices to help developers document their projects efficiently. This section outlines guidelines for documenting your project on Git, including version control for documentation, commit messages, and documentation file organization.
 
@@ -255,7 +255,7 @@ This command will list the Docker images available on your machine, including th
 
 Congratulations! You have successfully set up Docker on your machine. You are now ready to start using Docker containers to package and deploy your applications.
 
-# **_Docker Development Environments:_**
+## **_Docker Development Environments:_**
 
 Docker provides an efficient way to create isolated and reproducible development environments for your projects. With Docker, you can package your application, its dependencies, and development tools into containers, ensuring consistency across different development machines. This documentation outlines the steps to set up a Docker development environment for your project.
 
@@ -286,7 +286,7 @@ Docker Compose will start the containers and display the logs for each service i
 
 6. <u>Access the Development Environment:</u> Once the services are up and running, you can access your development environment using the specified ports or network configurations. Open a web browser or make requests to the appropriate endpoints to interact with your application.
 
-# **_Additional Configuration:_**
+## **_Additional Configuration:_**
 
 Depending on your project's requirements, you may need to configure additional aspects of your Docker development environment. Consider the following:
 
@@ -304,7 +304,7 @@ Depending on your project's requirements, you may need to configure additional a
 
 Maintaining consistent coding standards is crucial for ensuring readability, maintainability, and collaboration within a project. Documenting coding standards provides guidelines for developers to follow and promotes a cohesive codebase. Here are some key points to consider when documenting coding standards within your project:
 
-# **_Formatting and Style:_**
+## **_Formatting and Style:_**
 
 Specify the formatting and style conventions that developers should adhere to. This includes guidelines for indentation, line length, spacing, and naming conventions. Some common elements to consider include:
 
@@ -313,7 +313,7 @@ Specify the formatting and style conventions that developers should adhere to. T
 3. <u>Spacing:</u> Define guidelines for spacing around operators, parentheses, and commas.
 4. <u>Naming Conventions:</u> Specify conventions for naming variables, functions, classes, and other code elements.
 
-# **_Comments and Documentation:_**
+## **_Comments and Documentation:_**
 
 Establish guidelines for comments and documentation within the codebase. This helps ensure code clarity and provides valuable insights for future maintenance. Include the following considerations:
 
@@ -322,7 +322,7 @@ Establish guidelines for comments and documentation within the codebase. This he
 3. <u>Documentation Standards:</u> Encourage the use of documentation tools like Javadoc or Doxygen for generating API documentation.
 4. <u>Documentation Content:</u> Provide guidance on documenting code purpose, input/output descriptions, and any relevant examples or caveats.
 
-# **_Error Handling and Exceptions:_**
+## **_Error Handling and Exceptions:_**
 
 Define how error handling and exceptions should be implemented within the codebase. This ensures consistent and reliable error handling practices. Consider the following:
 
@@ -330,7 +330,7 @@ Define how error handling and exceptions should be implemented within the codeba
 2. <u>Error Messages:</u> Define guidelines for error message formatting, including language localization if applicable.
 3. <u>Exception Handling:</u> Establish best practices for exception handling, such as when to catch exceptions, when to propagate them, and when to handle recoverable errors.
 
-# **_Code Organization and Structure:_**
+## **_Code Organization and Structure:_**
 
 Document guidelines for organizing and structuring code within the project. This promotes maintainability and helps developers quickly understand the codebase. Include considerations such as:
 
@@ -339,7 +339,7 @@ Document guidelines for organizing and structuring code within the project. This
 3. <u>Modularity and Encapsulation:</u> Encourage modular code design and the use of appropriate access modifiers.
 4. <u>Code Duplication:</u> Address code duplication concerns and emphasize the importance of reusability and refactoring.
 
-# **_Testing Standards:_**
+## **_Testing Standards:_**
 
 Provide guidelines for writing tests within the project. This ensures consistent and effective testing practices. Consider the following aspects:
 
@@ -348,7 +348,7 @@ Provide guidelines for writing tests within the project. This ensures consistent
 3. <u>Test Coverage:</u> Encourage developers to aim for high test coverage to ensure comprehensive testing.
 4. <u>Assertions and Expectations:</u> Define guidelines for using assertions and expectations effectively.
 
-# **_Version Control Practices:_**
+## **_Version Control Practices:_**
 
 Include guidelines for version control practices to promote collaboration and ensure a clean commit history. Consider the following:
 
@@ -380,7 +380,7 @@ By documenting coding standards within your project, you provide developers with
 
 ### Project has many APIs that make it easy to alter and extend, and to help developers with common tasks. Learn how to use them in your code.
 
-# **_RESTful API Structure Documentation:_**
+## **_RESTful API Structure Documentation:_**
 
 This documentation provides guidelines and best practices for structuring a RESTful API in your project. A well-structured API promotes consistency, scalability, and ease of use for developers consuming your API. Follow the guidelines below to structure your RESTful API effectively:
 
@@ -428,7 +428,7 @@ Here is a suggested structure for organizing your API endpoints:
 
 10. <u>Documentation:</u> Provide comprehensive documentation that describes each endpoint, its purpose, required parameters, and expected responses. Include example requests and responses to illustrate how to interact with your API.
 
-# **_Laravel API Structure Documentation:_**
+## **_Laravel API Structure Documentation:_**
 
 This documentation provides guidelines and best practices for structuring a Laravel API in your project. Laravel is a popular PHP framework that offers powerful tools and features for building robust and scalable APIs. Follow the guidelines below to structure your Laravel API effectively:
 
