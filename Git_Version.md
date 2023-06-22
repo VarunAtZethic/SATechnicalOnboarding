@@ -98,7 +98,7 @@ git push origin <branch-name>    # Push changes to the remote
 
 ### Information on how to create and manage a module, theme, or distribution project hosted:
 
-# **_Documenting Your Project on Git:_**
+## **_Documenting Your Project on Git:_**
 
 Effective documentation is crucial for ensuring the long-term maintainability and understandability of a project. Git provides several features and best practices to help developers document their projects efficiently. This section outlines guidelines for documenting your project on Git, including version control for documentation, commit messages, and documentation file organization.
 
