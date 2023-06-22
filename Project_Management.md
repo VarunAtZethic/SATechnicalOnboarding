@@ -4,3 +4,9 @@
 - Overview of projects and issues 
 - Fields and other parts of an issue 
 - Issue procedures and etiquette
+
+- [Development tools](./README.md)
+- [Git version control system](./Git_Version.md)
+- [Docker setup](./Docker_Setup.md)
+- [Coding standards](./Coding_Standards.md)
+- [Api's](./API's.md)

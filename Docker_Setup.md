@@ -56,7 +56,7 @@ This command will list the Docker images available on your machine, including th
 
 Congratulations! You have successfully set up Docker on your machine. You are now ready to start using Docker containers to package and deploy your applications.
 
-# **_Docker Development Environments:_**
+## **_Docker Development Environments:_**
 
 Docker provides an efficient way to create isolated and reproducible development environments for your projects. With Docker, you can package your application, its dependencies, and development tools into containers, ensuring consistency across different development machines. This documentation outlines the steps to set up a Docker development environment for your project.
 
@@ -87,7 +87,7 @@ Docker Compose will start the containers and display the logs for each service i
 
 6. <u>Access the Development Environment:</u> Once the services are up and running, you can access your development environment using the specified ports or network configurations. Open a web browser or make requests to the appropriate endpoints to interact with your application.
 
-# **_Additional Configuration:_**
+## **_Additional Configuration:_**
 
 Depending on your project's requirements, you may need to configure additional aspects of your Docker development environment. Consider the following:
 
@@ -98,3 +98,9 @@ Depending on your project's requirements, you may need to configure additional a
 3. <u>Hot Reloading:</u> Explore options for enabling hot reloading or automatic code reloading within the containers to enhance the development experience and eliminate the need for manual container restarts.
 
 4. <u>Integration with Version Control:</u> Provide guidelines on how to integrate Docker into your version control workflow. This may involve including Docker-related files, such as the Docker Compose file or Dockerfile, in your version control repository.
+
+- [Development tools](./README.md)
+- [Git version control system](./Git_Version.md)
+- [Project management tool](./Project_Management.md)
+- [Coding standards](./Coding_Standards.md)
+- [Api's](./API's.md)

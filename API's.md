@@ -2,7 +2,7 @@
 
 ### Project has many APIs that make it easy to alter and extend, and to help developers with common tasks. Learn how to use them in your code.
 
-# **_RESTful API Structure Documentation:_**
+## **_RESTful API Structure Documentation:_**
 
 This documentation provides guidelines and best practices for structuring a RESTful API in your project. A well-structured API promotes consistency, scalability, and ease of use for developers consuming your API. Follow the guidelines below to structure your RESTful API effectively:
 
@@ -50,7 +50,7 @@ Here is a suggested structure for organizing your API endpoints:
 
 10. <u>Documentation:</u> Provide comprehensive documentation that describes each endpoint, its purpose, required parameters, and expected responses. Include example requests and responses to illustrate how to interact with your API.
 
-# **_Laravel API Structure Documentation:_**
+## **_Laravel API Structure Documentation:_**
 
 This documentation provides guidelines and best practices for structuring a Laravel API in your project. Laravel is a popular PHP framework that offers powerful tools and features for building robust and scalable APIs. Follow the guidelines below to structure your Laravel API effectively:
 
@@ -93,3 +93,9 @@ Here is a suggested structure for organizing your Laravel API:
 10. <u>Error Handling:</u> Customize Laravel's exception handling to provide meaningful error responses. Create custom exception classes for specific types of errors and define how they should be transformed into API responses.
 
 11. <u>Documentation:</U> Provide comprehensive documentation that describes each endpoint, its purpose, required parameters, and expected responses. Include examples of request and response payloads to assist API consumers in using your API effectively.
+
+- [Development tools](./README.md)
+- [Git version control system](./Git_Version.md)
+- [Project management tool](./Project_Management.md)
+- [Docker setup](./Docker_Setup.md)
+- [Coding standards](./Coding_Standards.md)
