@@ -474,8 +474,8 @@ Here is a suggested structure for organizing your Laravel API:
 
 11. <u>Documentation:</U> Provide comprehensive documentation that describes each endpoint, its purpose, required parameters, and expected responses. Include examples of request and response payloads to assist API consumers in using your API effectively.
 
-[Git version control system](doc/Git_Version.md)
-[Project management tool](doc/Project_Management.md)
-[Docker setup](doc/Docker_Setup.md)
-[Coding standards](doc/Coding_Standards.md)
-[Api's](API's.md)
+[Git version control system](Dev-Doc/Git_Version.md)
+[Project management tool](Dev-Doc/Project_Management.md)
+[Docker setup](Dev-Doc/Docker_Setup.md)
+[Coding standards](Dev-Doc/Coding_Standards.md)
+[Api's](Dev-Doc/API's.md)
