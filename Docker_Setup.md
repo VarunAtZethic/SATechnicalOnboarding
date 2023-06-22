@@ -99,7 +99,7 @@ Depending on your project's requirements, you may need to configure additional a
 
 4. ***Integration with Version Control:*** Provide guidelines on how to integrate Docker into your version control workflow. This may involve including Docker-related files, such as the Docker Compose file or Dockerfile, in your version control repository.
 
-### **Further reading**
+### **Further reading:**
 
 - [Development tools](./README.md)
 - [Git version control system](./Git_Version.md)

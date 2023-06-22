@@ -129,7 +129,7 @@ Organizing your documentation files in a logical and structured manner helps dev
 
 By following these guidelines, you can effectively document your project on Git, ensuring that important information is well-preserved, easily accessible, and accurately versioned. This helps both current and future developers understand and maintain the project with clarity and efficiency.
 
-### **Further reading**
+### **Further reading:**
 
 - [Development tools](./README.md)
 - [Project management tool](./Project_Management.md)

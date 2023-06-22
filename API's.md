@@ -94,7 +94,7 @@ Here is a suggested structure for organizing your Laravel API:
 
 11. ***Documentation:*** Provide comprehensive documentation that describes each endpoint, its purpose, required parameters, and expected responses. Include examples of request and response payloads to assist API consumers in using your API effectively.
 
-### **Further reading**
+### **Further reading:**
 
 - [Development tools](./README.md)
 - [Git version control system](./Git_Version.md)

@@ -5,7 +5,7 @@
 - Fields and other parts of an issue 
 - Issue procedures and etiquette
 
-### **Further reading**
+### **Further reading:**
 
 - [Development tools](./README.md)
 - [Git version control system](./Git_Version.md)

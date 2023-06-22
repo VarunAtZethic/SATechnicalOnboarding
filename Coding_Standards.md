@@ -76,7 +76,7 @@ If your project incorporates continuous integration and deployment, provide guid
 
 By documenting coding standards within your project, you provide developers with clear guidelines to follow, leading to consistent and maintainable code. It also facilitates collaboration among team members and reduces the time spent on code reviews and refactoring. Regularly review and update the documentation to reflect any changes.
 
-### **Further reading**
+### **Further reading:**
 
 - [Development tools](./README.md)
 - [Git version control system](./Git_Version.md)
