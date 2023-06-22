@@ -5,25 +5,25 @@
 
 Git allows developers to keep a historical record of changes made to their codebase, providing a reliable and efficient way to track and manage versions. Key concepts in Git include:
 
-1. <u>Repository:</u> A repository, or repo, is a collection of files and their entire history. It serves as a centralized hub for collaboration and version control.
+1. ***Repository:*** A repository, or repo, is a collection of files and their entire history. It serves as a centralized hub for collaboration and version control.
 
-2. <u>Commit:</u> A commit represents a specific set of changes made to the codebase. Each commit is identified by a unique hash and contains information such as the author, timestamp, and commit message.
+2. ***Commit:*** A commit represents a specific set of changes made to the codebase. Each commit is identified by a unique hash and contains information such as the author, timestamp, and commit message.
 
-3. <u>Branch:</u> A branch is a parallel version of the codebase that allows developers to work on features or bug fixes independently. Branches enable concurrent development and can be merged back into the main codebase.
+3. ***Branch:*** A branch is a parallel version of the codebase that allows developers to work on features or bug fixes independently. Branches enable concurrent development and can be merged back into the main codebase.
 
-4. <u>Merge:</u> Merging combines changes from one branch into another, typically integrating feature branches into the main branch (often called the "master" or "main" branch).
+4. ***Merge:*** Merging combines changes from one branch into another, typically integrating feature branches into the main branch (often called the "master" or "main" branch).
 
-5. <u>Pull Request:</u> A pull request (PR) is a mechanism for proposing changes from one branch to another. It allows team members to review, discuss, and provide feedback before merging the changes.
+5. ***Pull Request:*** A pull request (PR) is a mechanism for proposing changes from one branch to another. It allows team members to review, discuss, and provide feedback before merging the changes.
 
-6. <u>Remote:</u> A remote refers to a repository hosted on a server, such as GitHub or GitLab. Developers can push their local changes to a remote repository and pull changes from it to stay up to date with the latest code.
+6. ***Remote:*** A remote refers to a repository hosted on a server, such as GitHub or GitLab. Developers can push their local changes to a remote repository and pull changes from it to stay up to date with the latest code.
 
 ## **_Setting up Git for the project:_**
 
 To start using Git, follow these steps to set it up on your development machine:
 
-1. <u>Installation:</u> Download and install Git from the official Git website [Git](https://git-scm.com/downloads). Follow the installation instructions for your operating system.
+1. ***Installation:*** Download and install Git from the official Git website [Git](https://git-scm.com/downloads). Follow the installation instructions for your operating system.
 
-2. <u>Configuration:</u> After installation, open a terminal or command prompt and configure your Git identity with the following commands:
+2. ***Configuration:*** After installation, open a terminal or command prompt and configure your Git identity with the following commands:
 
 ```
 git config --global user.name "Your Name"
@@ -31,7 +31,7 @@ git config --global user.email "yourname@example.com"
 ```
 Replace "Your Name" and "yourname@example.com" with your preferred name and email address, respectively.
 
-3. <u>Optional:</u> Remote Repository: If you plan to collaborate with others or host your code on a remote repository platform like GitHub or GitLab, create a new repository and obtain its URL.
+3. ***Optional:*** Remote Repository: If you plan to collaborate with others or host your code on a remote repository platform like GitHub or GitLab, create a new repository and obtain its URL.
 
 - **Initialize a Repository:** Open a terminal or command prompt in your project's root directory and run the following command to initialize a Git repository:
 
@@ -106,28 +106,30 @@ Effective documentation is crucial for ensuring the long-term maintainability an
 
 Version control is not only useful for tracking code changes but also for managing project documentation. By treating your project documentation as code, you can take advantage of Git's version control capabilities. Here are some tips for version controlling your project documentation:
 
-1. <u>Create a Documentation Folder:</u> Set up a dedicated folder within your project repository to store all documentation files.
-2. <u>Commit Documentation Changes:</u> Treat your documentation files like any other code file in your project. Use `git add` and `git commit` to track changes and commit new versions of your documentation.
-3. <u>Use Descriptive Commit Messages:</u> Write clear and concise commit messages that describe the purpose and content of the documentation changes. This helps other developers understand the intent behind each commit.
+1. ***Create a Documentation Folder:*** Set up a dedicated folder within your project repository to store all documentation files.
+2. ***Commit Documentation Changes:*** Treat your documentation files like any other code file in your project. Use `git add` and `git commit` to track changes and commit new versions of your documentation.
+3. ***Use Descriptive Commit Messages:*** Write clear and concise commit messages that describe the purpose and content of the documentation changes. This helps other developers understand the intent behind each commit.
 
 **Commit Messages for Documentation:**
 
 Writing informative and meaningful commit messages is essential for maintaining a well-documented project history. Consider the following best practices when writing commit messages for documentation:
 
-1. <u>Be Descriptive:</u> Clearly describe the purpose of the documentation changes in the commit message. Use present tense and succinctly summarize the modifications.
-2. <u>Include Relevant Context:</u> Provide additional context or references, such as issue numbers or related documentation, in the commit message. This helps others understand the context behind the changes.
-3. <u>Consider Length and Readability:</u> Keep commit messages concise, but ensure they convey enough information. Avoid excessively long messages that may be difficult to read or understand.
+1. ***Be Descriptive:*** Clearly describe the purpose of the documentation changes in the commit message. Use present tense and succinctly summarize the modifications.
+2. ***Include Relevant Context:*** Provide additional context or references, such as issue numbers or related documentation, in the commit message. This helps others understand the context behind the changes.
+3. ***Consider Length and Readability:*** Keep commit messages concise, but ensure they convey enough information. Avoid excessively long messages that may be difficult to read or understand.
 
 **Documentation File Organization**
 
 Organizing your documentation files in a logical and structured manner helps developers navigate and find information easily. Consider the following guidelines for organizing your documentation files:
 
-1. <u>Use a Consistent Structure:</u> Define a consistent structure for organizing different types of documentation files, such as user guides, API documentation, or project README files. This makes it easier for developers to locate specific information.
-2. <u>Create Separate Files for Different Topics:</u> Split your documentation into separate files for different topics or sections. For example, have separate files for installation instructions, configuration, usage guides, and troubleshooting.
-3. <u>Use Descriptive Filenames:</u> Give your documentation files meaningful and descriptive names. Use lowercase letters, hyphens, or underscores to separate words for better readability.
-4. <u>Include Table of Contents:</u> For larger documentation sets, consider adding a table of contents or an index file that provides an overview of all available documentation and serves as an entry point for users.
+1. ***Use a Consistent Structure:*** Define a consistent structure for organizing different types of documentation files, such as user guides, API documentation, or project README files. This makes it easier for developers to locate specific information.
+2. ***Create Separate Files for Different Topics:*** Split your documentation into separate files for different topics or sections. For example, have separate files for installation instructions, configuration, usage guides, and troubleshooting.
+3. ***Use Descriptive Filenames:*** Give your documentation files meaningful and descriptive names. Use lowercase letters, hyphens, or underscores to separate words for better readability.
+4. ***Include Table of Contents:*** For larger documentation sets, consider adding a table of contents or an index file that provides an overview of all available documentation and serves as an entry point for users.
 
 By following these guidelines, you can effectively document your project on Git, ensuring that important information is well-preserved, easily accessible, and accurately versioned. This helps both current and future developers understand and maintain the project with clarity and efficiency.
+
+### **Further reading**
 
 - [Development tools](./README.md)
 - [Project management tool](./Project_Management.md)

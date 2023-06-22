@@ -4,15 +4,15 @@ This guide provides step-by-step instructions for setting up Docker on your mach
 
 1. **Step 1: Install Docker**
 
-- <u>Check System Requirements:</u> Before installing Docker, ensure that your machine meets the system requirements. Visit the Docker documentation or the Docker website for specific requirements based on your operating system.
+- ***Check System Requirements:*** Before installing Docker, ensure that your machine meets the system requirements. Visit the Docker documentation or the Docker website for specific requirements based on your operating system.
 
-- <u>Download Docker:</u> Go to the Docker website (https://www.docker.com) and download the appropriate Docker version for your operating system. Docker provides versions for Windows, macOS, and Linux distributions.
+- ***Download Docker:*** Go to the Docker website (https://www.docker.com) and download the appropriate Docker version for your operating system. Docker provides versions for Windows, macOS, and Linux distributions.
 
-- <u>Install Docker:</u> Run the installer and follow the on-screen instructions to install Docker on your machine. This may involve accepting terms of service, choosing installation options, and providing administrative privileges.
+- ***Install Docker:*** Run the installer and follow the on-screen instructions to install Docker on your machine. This may involve accepting terms of service, choosing installation options, and providing administrative privileges.
 
-- <u>Launch Docker:</u> Once the installation is complete, launch the Docker application. On some operating systems, Docker may start automatically after installation.
+- ***Launch Docker:*** Once the installation is complete, launch the Docker application. On some operating systems, Docker may start automatically after installation.
 
-- <u>Verify Installation:</u> Open a terminal or command prompt and run the following command to verify that Docker is installed correctly:
+- ***Verify Installation:*** Open a terminal or command prompt and run the following command to verify that Docker is installed correctly:
 
 ```
 docker --version
@@ -64,40 +64,42 @@ Docker provides an efficient way to create isolated and reproducible development
 
 Before setting up a Docker development environment, ensure you have the following prerequisites installed on your system:
 
-1. <u>Docker Engine:</u> Download and install Docker Engine for your operating system by following the official installation instructions from the Docker website.
+1. ***Docker Engine:*** Download and install Docker Engine for your operating system by following the official installation instructions from the Docker website.
 
 - **Docker Compose**
 
 Docker Compose is a tool that allows you to define and manage multi-container Docker applications. It uses a YAML file to specify the services, networks, and volumes required for your development environment. Follow these steps to set up Docker Compose for your project:
 
-1. <u>Create a Docker Compose File:</u> Create a docker-compose.yml file in the root directory of your project. This file will define your development environment.
+1. ***Create a Docker Compose File:*** Create a docker-compose.yml file in the root directory of your project. This file will define your development environment.
 
-2. <u>Define Services:</u> In the Docker Compose file, specify the services required for your development environment. This can include your application service, databases, cache servers, or any other dependencies. Each service should be defined with its own configuration, including the Docker image to use and any environment variables or volume mounts required.
+2. ***Define Services:*** In the Docker Compose file, specify the services required for your development environment. This can include your application service, databases, cache servers, or any other dependencies. Each service should be defined with its own configuration, including the Docker image to use and any environment variables or volume mounts required.
 
-3. <u>Configure Networks:</u> If your services need to communicate with each other, define custom networks in the Docker Compose file. This allows you to isolate the containers and control their network access.
+3. ***Configure Networks:*** If your services need to communicate with each other, define custom networks in the Docker Compose file. This allows you to isolate the containers and control their network access.
 
-4. <u>Set up Volumes:</u> Use Docker volumes to persist data between container restarts or to share data between the host machine and the container. Define volume mounts in the Docker Compose file for each service that requires data persistence or sharing.
+4. ***Set up Volumes:*** Use Docker volumes to persist data between container restarts or to share data between the host machine and the container. Define volume mounts in the Docker Compose file for each service that requires data persistence or sharing.
 
-5. <u>Build and Run Services:</u> Use the docker-compose command to build and run the defined services. Open a terminal or command prompt in the same directory as the Docker Compose file and run the following command:
+5. ***Build and Run Services:*** Use the docker-compose command to build and run the defined services. Open a terminal or command prompt in the same directory as the Docker Compose file and run the following command:
 
 ```
 docker-compose up
 ```
 Docker Compose will start the containers and display the logs for each service in the terminal.
 
-6. <u>Access the Development Environment:</u> Once the services are up and running, you can access your development environment using the specified ports or network configurations. Open a web browser or make requests to the appropriate endpoints to interact with your application.
+6. ***Access the Development Environment:*** Once the services are up and running, you can access your development environment using the specified ports or network configurations. Open a web browser or make requests to the appropriate endpoints to interact with your application.
 
 ## **_Additional Configuration:_**
 
 Depending on your project's requirements, you may need to configure additional aspects of your Docker development environment. Consider the following:
 
-1. <u>Development Tools:</u> Install any development tools or utilities required for your project inside the Docker containers. This can include code editors, debuggers, linters, or testing frameworks.
+1. ***Development Tools:*** Install any development tools or utilities required for your project inside the Docker containers. This can include code editors, debuggers, linters, or testing frameworks.
 
-2. <u>Development Workflows:</u> Document any specific workflows or commands that developers should follow when working with the Docker development environment. This may include instructions for running tests, debugging, or accessing logs within the containers.
+2. ***Development Workflows:*** Document any specific workflows or commands that developers should follow when working with the Docker development environment. This may include instructions for running tests, debugging, or accessing logs within the containers.
 
-3. <u>Hot Reloading:</u> Explore options for enabling hot reloading or automatic code reloading within the containers to enhance the development experience and eliminate the need for manual container restarts.
+3. ***Hot Reloading:*** Explore options for enabling hot reloading or automatic code reloading within the containers to enhance the development experience and eliminate the need for manual container restarts.
 
-4. <u>Integration with Version Control:</u> Provide guidelines on how to integrate Docker into your version control workflow. This may involve including Docker-related files, such as the Docker Compose file or Dockerfile, in your version control repository.
+4. ***Integration with Version Control:*** Provide guidelines on how to integrate Docker into your version control workflow. This may involve including Docker-related files, such as the Docker Compose file or Dockerfile, in your version control repository.
+
+### **Further reading**
 
 - [Development tools](./README.md)
 - [Git version control system](./Git_Version.md)
