@@ -59,7 +59,7 @@ During web development, it's often necessary to disable caching to ensure that y
 With the Developer Tools panel open, ensure that the "Network" tab is selected.
 Check the "Disable cache" checkbox at the top-left corner of the Developer Tools panel. This will enable cache disabling for subsequent page loads.
 
-### **Further reading**
+### **Further reading:**
 
 - [Git version control system](./Git_Version.md)
 - [Project management tool](./Project_Management.md)
